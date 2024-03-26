@@ -7,6 +7,9 @@ public class Main {
 
         int randomInt = (int) Math.round(Math.random()*10);
         blahblubb(randomInt);
+
+        MathFunctions myMath = new MathFunctions();
+        System.out.println("factorial(" + randomInt + ") is " + myMath.factorial(randomInt));
     }
 
     static void blahblubb(int n) {
